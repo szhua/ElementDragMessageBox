@@ -4,9 +4,11 @@ ElementMessageBox重写使其能够进行拖动
 
 创建Element项目
 
- import MessageBox from '@/components/MessageBox'
 
 
+
+```js
+import MessageBox from '@/components/MessageBox'
 
 MessageBox.confirm('检测到未保存的内容，是否在离开页面前保存修改？', '确认信息', {
         distinguishCancelAndClose: true,
@@ -27,9 +29,7 @@ MessageBox.confirm('检测到未保存的内容，是否在离开页面前保存
               : '停留在当前页面'
           })
         })
-
-
-
+```
 
 
 
